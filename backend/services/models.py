@@ -28,3 +28,4 @@ class Model():
 
 model_provider = Model(base_url=settings.LMSTUDIO_URL, api_key=settings.LMSTUDIO_API)
 
+llm = model_provider.chatmodel(settings.CHAT_MODEL)
