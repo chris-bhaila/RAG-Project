@@ -26,9 +26,3 @@ if prompt:
         response="hi i am bot"
         st.write(f"{response}")
     st.session_state.messages.append({"role": "assistant", "content": response})
-        
-
-    
-    
-    
-    
